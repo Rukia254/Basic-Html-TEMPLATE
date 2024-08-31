@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Title -->
+    <title>Basic HTML Template</title>
+    
+    <!-- Meta tags for display and character set -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+
+    <!-- External CSS (optional, for styling) -->
+    <style>
+        body {
+            font-family: Arial, 'Times New Roman', Times, serif;
+            margin: 20px;
+        }
+        header {
+            textinit-align: center;
+        }
+        table {
+            width: 100%;
+            margin-top: 20px;
+            border-collapse: separate;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+            padding: 5px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        Welcome to our web Page
+    </header>
+
+    <!-- Heading -->
+    <h1>User Registration Page</h1>
+
+    <!-- Paragraph -->
+    <p>Please fill in the form below to register.</p>
+
+    <!-- Basic Registration Form -->
+    <form action="#" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="phone">Phone Number:</label><br>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required><br><br>
+
+        <input type="submit" value="Register">
+    </form>
+
+    <!-- Table displaying common user information -->
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Phone Number</th>
+        </tr>
+        <tr>
+            <td>Rukia Wako</td>
+            <td>rukiawako@gmail.com</td>
+            <td>07-4586-7890</td>
+        </tr>
+        <tr>
+            <td>Samran Wao Chalice</td>
+            <td>samranwaochalice@gmail.com</td>
+            <td>07-7605-4321</td>
+        </tr>
+    </table>
+    <!--internal Images -->
+    <img src="C:\Users\Administrator\Desktop\AUG 2024\week-2\pexels-bri-schneiter-28802-346529.jpg" alt="Calm Body of Lake Between Mountains
+    " width="800" height="500">
+    <br/>
+    <!--external Image -->
+    <img src="https://images.pexels.com/photos/259280/pexels-photo-259280.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Green Field
+    " width="800" height="500">
+<br/>
+    <!-- External Link -->
+    <a href="https://google.com">Click Here to visit Google page</a>
+</body>
+</html>
